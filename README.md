@@ -1,70 +1,21 @@
-# Getting Started with Create React App
+# React Component 재사용 Assignment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+이 Repository에는 컴포넌트 재사용 세션의 과제 관련 코드가 구현되어 있으며, 다음 두 가지 주제에 대하여 다루고 있습니다.
 
-## Available Scripts
+### 1. 왓챠피디아 : 로그인 / 회원가입 화면
+- 학습 자료를 기반으로 구성되어 있습니다.
+- 링크를 통해 로그인, 회원가입으로 페이지로 이동할 수 있습니다.
+- 데이터 구성 및 컴포넌트 분리가 완료된 상태입니다.
 
-In the project directory, you can run:
+![스크린샷 2022-05-25 오후 8 14 14](https://user-images.githubusercontent.com/80258195/170249737-c8bc246e-67f9-49fe-9950-4e708076aea4.png)
 
-### `npm start`
+### 2. 카카오커머스 : 타입에 따른 레이아웃 조건부 렌더링
+- 조건부 렌더링을 사용한 카드뷰 / 리스트뷰 구현
+  
+![image](https://user-images.githubusercontent.com/35240142/114578239-aec49880-9cb7-11eb-95d0-9caf8f65fcb3.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Scripts
+- git clone https://github.com/wecode-bootcamp-korea/react-component-reuse
+- npm install
+- npm start
