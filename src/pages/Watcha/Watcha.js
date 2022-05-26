@@ -6,7 +6,7 @@ const Watcha = ({ data }) => {
   const { title, text, url } = data;
 
   return (
-    <div className="watchaContainer">
+    <div className="watcha">
       <header className="logo" />
       <h2 className="title">{title}</h2>
       <form>

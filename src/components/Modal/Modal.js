@@ -13,16 +13,19 @@ const Modal = () => {
 ***********************************************************/
 
   const location = useLocation(); // 1
-  const currentUrl = location.pathname; // 2
-  const isSelecLogin = currentUrl === "/login" && true; // 3
+  const currentURL = location.pathname; // 2
+  const isLoginURL = currentURL === "/login";
 
   return (
     <div className="modal">
-      <Watcha data={isSelecLogin ? LOGIN_DATA : SIGNUP_DATA} />
+      <Watcha data={isLoginURL ? LOGIN_DATA : SIGNUP_DATA} />
+      {/* data 변수명 바뀌는게 좋을 것 같습니다! */}
+      {/* 컴재 예제 자체를 Children 활용하는 방식으로 하는건 별로일까요?...*/}
     </div>
   );
 };
 
+// 여기도 DATA등 변수명 빠졌으면 좋겠습니다!
 const LOGIN_DATA = {
   title: "로그인",
   text: "계정이 없으신가요? 회원가입",
