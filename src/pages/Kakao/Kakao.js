@@ -17,11 +17,12 @@ import "./Kakao.scss";
 
 const Kakao = () => {
   return (
-    <div className="cardList">
+    <div className="kakao">
       <article className="card">
         <div className="cardImg">
           <img
-            alt="cardImg"
+            {/* alt에 Image, IMG, photo 이런 단어 안넣는것 적용하면 좋을 것 같습니다! */}
+            alt="card"
             src="https://t1.kakaocdn.net/friends/prod/main_tab/home/home_20201103134054_kr.jpg?type=thumb&opt=R329x247@2xa"
           />
         </div>
@@ -42,7 +43,7 @@ const Kakao = () => {
       <article className="card">
         <div className="cardImg">
           <img
-            alt="cardImg"
+            alt="card"
             src="https://t1.kakaocdn.net/friends/prod/main_tab/home/home_20201106164745_kr.jpg?type=thumb&opt=R329x247@2xa"
           />
         </div>
@@ -102,7 +103,7 @@ const Kakao = () => {
       <article className="card">
         <div className="cardImg">
           <img
-            alt="cardImg"
+            alt="card"
             src="https://t1.kakaocdn.net/friends/prod/main_tab/home/home_20201111183631_kr.jpg?type=thumb&opt=R335x187@2xa"
           />
         </div>

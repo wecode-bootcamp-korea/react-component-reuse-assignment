@@ -1,4 +1,4 @@
-.cardList {
+.kakao {
   .card {
     margin-right: 20px;
     width: 350px;
@@ -8,6 +8,7 @@
     box-shadow: rgba(0, 0, 0, 0.2) 0px 5px 13px;
 
     .cardImg {
+      // 이렇게 스타일 안주는 부분 nesting 할려고 className 찍는 거 저희가 리뷰하는 부분인만큼 예제도 신경쓰면 좋을 것 같습니다!
       img {
         width: 100%;
       }
@@ -17,6 +18,7 @@
       padding: 20px 30px;
 
       .status {
+        // 이렇게 스타일 안주는 부분 nesting 할려고 className 찍는 거 저희가 리뷰하는 부분인만큼 예제도 신경쓰면 좋을 것 같습니다!
         span {
           padding: 0 8px;
           display: inline-block;
