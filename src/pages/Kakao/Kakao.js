@@ -17,16 +17,16 @@ import "./Kakao.scss";
 
 const Kakao = () => {
   return (
-    <div className="cardList">
+    <div className="kakao">
       <article className="card">
-        <div className="cardImg">
+        <div>
           <img
-            alt="cardImg"
+            alt="card"
             src="https://t1.kakaocdn.net/friends/prod/main_tab/home/home_20201103134054_kr.jpg?type=thumb&opt=R329x247@2xa"
           />
         </div>
         <div className="cardMain">
-          <div className="status">
+          <div>
             <span className="new">NEW</span>
           </div>
           <h3>촉촉함을 원해요</h3>
@@ -40,14 +40,14 @@ const Kakao = () => {
         </div>
       </article>
       <article className="card">
-        <div className="cardImg">
+        <div>
           <img
-            alt="cardImg"
+            alt="card"
             src="https://t1.kakaocdn.net/friends/prod/main_tab/home/home_20201106164745_kr.jpg?type=thumb&opt=R329x247@2xa"
           />
         </div>
         <div className="cardMain">
-          <div className="status">
+          <div>
             <span className="good">Good</span>
           </div>
           <h3>통통미 폭발 구름 폭신 필로우</h3>
@@ -62,7 +62,7 @@ const Kakao = () => {
                 alt="item"
                 src="https://t1.daumcdn.net/friends/prod/product/20201020152815054_8809721505908_AW_00.jpg?type=thumb&opt=R103x103@2xa"
               />
-              <div className="content">
+              <div>
                 <div>
                   <p>구름폭신필로우_라이언</p>
                   <p className="price">39,000원</p>
@@ -75,7 +75,7 @@ const Kakao = () => {
                 alt="item"
                 src="https://t1.daumcdn.net/friends/prod/product/20201020152804391_8809721505915_AW_00.jpg?type=thumb&opt=R103x103@2xa"
               />
-              <div className="content">
+              <div>
                 <div>
                   <p>구름폭신필로우_어피치</p>
                   <p className="price">39,000원</p>
@@ -88,7 +88,7 @@ const Kakao = () => {
                 alt="item"
                 src="https://t1.daumcdn.net/friends/prod/product/20201020152905998_8809721505922_AW_00.jpg?type=thumb&opt=R103x103@2xa"
               />
-              <div className="content">
+              <div>
                 <div>
                   <p>구름폭신필로우_무지</p>
                   <p className="price">39,000원</p>
@@ -100,14 +100,14 @@ const Kakao = () => {
         </div>
       </article>
       <article className="card">
-        <div className="cardImg">
+        <div>
           <img
-            alt="cardImg"
+            alt="card"
             src="https://t1.kakaocdn.net/friends/prod/main_tab/home/home_20201111183631_kr.jpg?type=thumb&opt=R335x187@2xa"
           />
         </div>
         <div className="cardMain">
-          <div className="status">
+          <div>
             <span className="theme">Theme</span>
           </div>
           <h3>올 겨울엔 프렌즈랑 메리 화이트 크리스마스!</h3>
@@ -123,7 +123,7 @@ const Kakao = () => {
                 alt="item"
                 src="https://t1.daumcdn.net/friends/prod/product/20201020152815054_8809721505908_AW_00.jpg?type=thumb&opt=R103x103@2xa"
               />
-              <div className="content">
+              <div>
                 <div>
                   <p>구름폭신필로우_라이언</p>
                   <p className="price">39,000원</p>
@@ -136,7 +136,7 @@ const Kakao = () => {
                 alt="item"
                 src="https://t1.daumcdn.net/friends/prod/product/20201020152804391_8809721505915_AW_00.jpg?type=thumb&opt=R103x103@2xa"
               />
-              <div className="content">
+              <div>
                 <div>
                   <p>구름폭신필로우_어피치</p>
                   <p className="price">39,000원</p>
@@ -149,7 +149,7 @@ const Kakao = () => {
                 alt="item"
                 src="https://t1.daumcdn.net/friends/prod/product/20201020152905998_8809721505922_AW_00.jpg?type=thumb&opt=R103x103@2xa"
               />
-              <div className="content">
+              <div>
                 <div>
                   <p>구름폭신필로우_무지</p>
                   <p className="price">39,000원</p>
